@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Cairo', 'Tajawal', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Ensure anchor links offset properly with sticky header */
+section[id] {
+  scroll-margin-top: 90px;
+}
+
+/* Custom pulsing keyframes for live coverage map indicator */
+@keyframes pulseGlow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.4);
+    opacity: 0.3;
+  }
+}
+
+.pulse-ring {
+  animation: pulseGlow 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+

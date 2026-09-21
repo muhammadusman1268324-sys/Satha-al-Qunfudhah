@@ -1,0 +1,8 @@
+{
+  "name": "سطحة القنفذة",
+  "description": "خدمات سحب ونقل السيارات في القنفذة والقوز والمظيلف والمناطق المحيطة على مدار الساعة. تواصل مباشر عبر الاتصال أو واتساب: +966506148530",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
