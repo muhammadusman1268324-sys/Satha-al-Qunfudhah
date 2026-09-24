@@ -25,6 +25,7 @@ section[id] {
 .pulse-ring {
   animation: pulseGlow 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
+
 /* Hide old static React testimonial section */
 #reviews {
   display: none !important;
