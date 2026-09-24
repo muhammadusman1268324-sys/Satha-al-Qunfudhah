@@ -31,7 +31,7 @@ export default function App() {
         <ServiceAreasSection />
         <WhyChooseUs />
         <EmergencyCtaSection />
-        <ReviewsSection />
+        {/* <ReviewsSection /> */}
         <FaqSection />
         <ContactSection />
       </main>
